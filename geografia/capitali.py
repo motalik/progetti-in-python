@@ -1,5 +1,8 @@
 import random
 
+GREEN = "\033[92m"
+RESET = "\033[0m"
+
 nazioni_capitali = {
     "Afghanistan": "Kabul",
     "Albania": "Tirana",
@@ -218,6 +221,6 @@ while coppie_da_indovinare:
             cont+=1
             break
         else:
-            print(f"Sbagliato. La capitale corretta di {nazione} è {capitale}")
+            print(GREEN + f"Sbagliato. La capitale corretta di {nazione} è {capitale}" + RESET)
 
 print("Hai indovinato tutte le capitali! Il gioco è finito.")
