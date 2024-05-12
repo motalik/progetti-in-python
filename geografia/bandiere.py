@@ -24,8 +24,6 @@ def show_next_flag(event=None):
             entry.delete(0, tk.END)
         else:
             end_game()
-    else:
-        feedback.config(text="Risposta sbagliata, riprova.")
 
 def end_game():
     end_time = time.time()
@@ -59,7 +57,7 @@ timer_a_schermo = tk.Label(root, text="Tempo: 00:00", bg="white")
 timer_a_schermo.pack(side="top", anchor="nw")
 entry = tk.Entry(root)
 entry.pack(pady=10)
-entry.bind("<Return>", show_next_flag)
+entry.bind("<KeyRelease>", show_next_flag)  # Controlla automaticamente la risposta ad ogni lettera inserita
 feedback = tk.Label(root, text="", bg="white")
 feedback.pack(pady=5)
 frame_immagine = tk.Frame(root, bg="white")
