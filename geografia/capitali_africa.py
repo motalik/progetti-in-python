@@ -92,7 +92,6 @@ while coppie_da_indovinare:
                 print(GREEN + f"Sbagliato. La capitale corretta di {nazione} è {capitale}" + RESET)
                 sbagliato += 1
             streak = 0
-            cont += 1
 
 end_time = time.time()
 tempo_trascorso = end_time - start_time
