@@ -45,7 +45,7 @@ nazioni_capitali = {
     "Niger": "Niamey",
     "Nigeria": "Abuja",
     "Rwanda": "Kigali",
-    "São Tomé and Príncipe": "São Tomé",
+    "São Tomé and Príncipe": "Sao tome",
     "Senegal": "Dakar",
     "Seychelles": "Victoria",
     "Sierra Leone": "Freetown",
