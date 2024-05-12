@@ -21,7 +21,10 @@ nazioni_capitali = {
 
 coppie_da_indovinare = list(nazioni_capitali.items())
 random.shuffle(coppie_da_indovinare)
-cont=0
+
+streak = 0
+max_streak = 0
+cont = 0
 
 start_time = time.time()
 
@@ -29,17 +32,22 @@ while coppie_da_indovinare:
     nazione, capitale = coppie_da_indovinare.pop()
 
     while True:
-        risposta = input(f"{cont}.Qual è la capitale di {nazione}? ").strip()
+        risposta = input(f"{cont}. Qual è la capitale di {nazione}? ").strip()
 
         if risposta.lower() == capitale.lower():
             print("Esatto!")
-            cont+=1
-            
+            cont += 1
+            streak += 1
+            max_streak = max(max_streak, streak)
             break
         else:
             print(GREEN + f"Sbagliato. La capitale corretta di {nazione} è {capitale}" + RESET)
+            streak = 0
+
 end_time = time.time()
 tempo_trascorso = end_time - start_time
 
 print("Hai indovinato tutte le capitali! Il gioco è finito.")
 print(f"Hai impiegato {tempo_trascorso:.2f} secondi.")
+print(f"Streak maggiore: {max_streak}")
+
