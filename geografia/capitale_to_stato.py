@@ -65,7 +65,7 @@ nazioni_capitali = {
     "Estonia": "Tallinn",
     "Eswatini": "Mbabane",
     "Ethiopia": "Addis Ababa",
-    "Federated States of Micronesia": "Palikir",
+    "Micronesia": "Palikir",
     "Fiji": "Suva",
     "Finland": "Helsinki",
     "France": "Paris",
