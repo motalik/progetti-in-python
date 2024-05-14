@@ -59,7 +59,6 @@ nazioni_capitali = {
     "Ecuador": "Quito",
     "Egypt": "Cairo",
     "El Salvador": "San Salvador",
-    "England": "London",
     "Equatorial Guinea": "Malabo",
     "Eritrea": "Asmara",
     "Estonia": "Tallinn",
