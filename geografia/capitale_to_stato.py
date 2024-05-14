@@ -89,7 +89,6 @@ nazioni_capitali = {
     "Iran": "Tehran",
     "Iraq": "Baghdad",
     "Ireland": "Dublin",
-    "Israel": "Jerusalem",
     "Italy": "Rome",
     "Jamaica": "Kingston",
     "Japan": "Tokyo",
