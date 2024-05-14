@@ -127,7 +127,7 @@ nazioni_capitali = {
     "Mozambique": "Maputo",
     "Myanmar (Burma)": "Nay Pyi Taw",
     "Namibia": "Windhoek",
-    "Nauru": "No official capital",
+    "Nauru": "Yaren",
     "Nepal": "Kathmandu",
     "Netherlands": "Amsterdam",
     "New Zealand": "Wellington",
